@@ -1,0 +1,244 @@
+body {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+}
+
+@font-face {
+    font-family: CodeLight;
+    src: url(Fonts/Code-Light.woff);
+}
+
+@font-face {
+    font-family: CodeBold;
+    src: url(Fonts/Code-Bold.woff);
+}
+
+h2 {
+    font-family: CodeLight, sans-serif;
+}
+
+.product-bg-1 {
+    background-image: url(Images/lady-1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.product-bg-2 {
+    background-image: url(Images/lady-2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.product-bg-3 {
+    background-image: url(Images/lady-3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.product-bg-4 {
+    background-image: url(Images/lady-4.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+   
+.product-bg-5 {
+    background-image: url(Images/lady-5.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+   
+.product-bg-6 {
+    background-image: url(Images/lady-6.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+   
+.product-bg-7 {
+    background-image: url(Images/lady-7.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+   
+.product-bg-8 {
+    background-image: url(Images/lady-8.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+   
+.product-bg-9 {
+    background-image: url(Images/lady-9.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+   
+.product-bg-10 {
+    background-image: url(Images/lady-10.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.homepage-slider-wrap {
+    background-image: url(Images/background.png);
+}
+
+.header-top-area a {
+    color: #564060;
+    display: inline-block;
+    padding: 15px;
+}
+
+.header-top-area {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-left ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header-left li {
+    display: inline-block;
+    padding: 22px;
+}
+
+.header-top-area a.menu-trigger {
+    display: none;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.search-trigger i.fa {
+    padding-left: 10px;
+}
+
+.homepage-slider-wrap {
+    background-color: #e5d4cf;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.single-slide-item {
+    position: relative;
+}
+
+.single-slide-item img {
+    position: absolute;
+    left: 50%;
+    width: 700px;
+    margin-left: -350px;
+    bottom: 0;
+}
+
+.slide-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.homepage-slider-wrap div {
+    height: 100%;
+}
+
+.slide-text-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15%;
+    font-family: CodeLight, sans-serif;
+    color: #e55288;
+    line-height: 101px;
+    font-size: 120px;
+}
+
+.slide-text-tablecell strong {
+    font-family: CodeBold, sans-serif;
+    font-weight: normal;
+}
+
+.slide-alternative-color {
+    color: #6fb0c5;
+}
+
+.big-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.big-menu li {
+    float: left;
+    width: 30%;
+    font-size: 50px;
+    font-family: 'CodeLight';
+    transition: .2s;
+
+}
+
+.bg-menu li:hover {
+    opacity: 0.5;
+}
+
+.big-menu li a {
+    color: #5b4060;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    text-align: right;
+   
+}
+
+.big-menu li:nth-child(2) a {
+    font-family: 'CodeBold', sans-serif;
+    color: #e55288;
+    padding-top: 170px;
+}
+
+.big-menu li:nth-child(2) {
+    background-color: #f0e5e5;
+}
+
+.big-menu li:nth-child(3) {
+    background-color: #f6f3e6;
+}
+
+.big-menu li:nth-child(3) a {
+    font-family: 'CodeLight', sans-serif;
+    padding-top: 170px;
+}
+
+.big-menu li:nth-child(4) {
+    background-color: #ecf4f5;
+}
+
+.big-menu li:nth-child(4) a {
+    font-family: 'CodeLight', sans-serif;
+    padding-top: 170px;
+}
+
+.big-menu li:nth-child(1) a {
+    font-family: 'CodeLight', sans-serif;
+    padding-top: 170px;
+}
+
+.big-menu li:nth-child(1) {
+    background-color: #ecf4f5;
+    
+}
+
+.big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+    width: 20%;
+}
