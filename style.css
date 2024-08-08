@@ -5,12 +5,13 @@ body {
 
 @font-face {
     font-family: CodeLight;
-    src: url(Fonts/Code-Light.woff);
+    src: url("Fonts/Code-Light.woff");
 }
 
 @font-face {
     font-family: CodeBold;
-    src: url(Fonts/Code-Bold.woff);
+    src: url("Fonts/Code-Bold.woff");
+    
 }
 
 h2 {
@@ -82,7 +83,7 @@ h2 {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 9;
+    z-index: 97;
 }
 
 .header-left ul {
@@ -96,9 +97,6 @@ h2 {
     padding: 22px;
 }
 
-.header-top-area a.menu-trigger {
-    display: none;
-}
 
 .header-right {
     text-align: right;
@@ -590,3 +588,96 @@ button.owl-dot {
     top: 45%;
 }
 
+.single-slide-item {
+    overflow: hidden;
+}
+
+.off-canvas-menu {
+    position: fixed;
+    background: #000;
+    width: 300px;
+    height: 100%;
+    z-index: 999;
+    margin-left:-300px;
+    transition: .3s;
+}
+
+.off-canvas-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.off-canvas-menu ul li a {
+    display:block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    padding:11px 15px;
+}
+
+.menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+    padding: 11px;
+}
+
+
+.off-canvas-menu ul {
+    padding-top: 50px;
+}
+
+.menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.off-canvas-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+a.menu-trigger  span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #e55288;
+    margin-bottom: 9px;
+}
+
+a.menu-trigger span:nth-child(2) {
+    width: 15px;
+}
+
+a.menu-trigger span:nth-child(3) {
+    width: 25px;
+}
+
+a.menu-trigger {
+    float: left;
+}
+
+.header-left ul {
+    float: left;
+}
+
+
+.off-canvas-menu.active {
+    margin-left: 0;
+}
+
+.off-canvas-overlay.active {
+    opacity: 0.6;
+    z-index: 98;
+}
