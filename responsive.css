@@ -1,0 +1,136 @@
+/* Medium Layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .single-product-item {
+        height: 250px;
+        margin-bottom: 15px;
+    }
+
+    .single-product-item:nth-child(2) {
+        height: 520px;
+    }
+
+}
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .big-menu li {
+        font-size: 30px;
+        padding-top: 130px;
+    }
+
+    .single-product-item {
+        width: 31.33%;
+    }
+
+    .single-product-item:nth-child(2){
+        width: 64.6666%;
+    }
+
+    .single-product-item:nth-child(4) {
+        width: 64.6666%;
+    }
+
+    .single-product-item:nth-child(9) {
+        width: 64.6666%;
+    }
+
+    .promo-bg {
+        padding-bottom: 20px 20px 0;
+    }
+    
+    .brand-images img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .footer-area {
+        text-align: center;
+    }
+
+    .social-links {
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        margin-top: 11px;
+    }
+
+    .footer-menu li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .header-right {
+        display: none;
+    }
+
+    .header-left ul {
+        /* float: left; */
+        display: none;
+    }
+
+    .homepage-slider-wrap {
+        height: auto;
+    }
+
+    .homepage-slider-wrap div {
+        height: auto;
+    }
+
+    .header-top-area {
+        position: relative;
+        background-color: #f8eeed;
+       
+    }
+
+    .header-top-area a {
+        padding: 15px 15px 5px;
+    }
+
+    .slide-text-tablecell {
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .single-slide-item img {
+        position: absolute;
+        left: 0;
+        margin-left: -139px;
+        bottom: 0;
+    }
+
+    .owl-carousel .owl-item img {
+        display: none;
+    }
+
+    .big-menu li {
+        float: none;
+        font-size: 40px;
+        width: auto;
+        padding-top: 0px;
+    }
+
+    .big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+        width: auto;
+    }
+
+    .big-menu li a {
+        padding: 50px;
+        text-align: center;
+    }
+
+}
