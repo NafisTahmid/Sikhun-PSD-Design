@@ -5,12 +5,13 @@ body {
 
 @font-face {
     font-family: CodeLight;
-    src: url(Fonts/Code-Light.woff);
+    src: url("Fonts/Code-Light.woff");
 }
 
 @font-face {
     font-family: CodeBold;
-    src: url(Fonts/Code-Bold.woff);
+    src: url("Fonts/Code-Bold.woff");
+    
 }
 
 h2 {
@@ -98,6 +99,10 @@ h2 {
     padding: 22px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0efe5187db8dccc8a9f748dccbd0166068f3c92
 .header-right {
     text-align: right;
 }
@@ -173,6 +178,7 @@ html, body {
     font-size: 50px;
     font-family: 'CodeLight';
     transition: .2s;
+    padding-top: 170px;
 
 }
 
@@ -192,7 +198,7 @@ html, body {
 .big-menu li:nth-child(2) a {
     font-family: 'CodeBold', sans-serif;
     color: #e55288;
-    padding-top: 170px;
+    
 }
 
 .big-menu li:nth-child(2) {
@@ -205,7 +211,7 @@ html, body {
 
 .big-menu li:nth-child(3) a {
     font-family: 'CodeLight', sans-serif;
-    padding-top: 170px;
+    
 }
 
 .big-menu li:nth-child(4) {
@@ -214,12 +220,12 @@ html, body {
 
 .big-menu li:nth-child(4) a {
     font-family: 'CodeLight', sans-serif;
-    padding-top: 170px;
+    
 }
 
 .big-menu li:nth-child(1) a {
     font-family: 'CodeLight', sans-serif;
-    padding-top: 170px;
+    
 }
 
 .big-menu li:nth-child(1) {
@@ -588,6 +594,7 @@ button.owl-dot {
     top: 45%;
 }
 
+<<<<<<< HEAD
 .off-canvas-menu {
     position: fixed;
     background: #333;
@@ -597,6 +604,20 @@ button.owl-dot {
     z-index: 99;
     margin-left: -300px;
     transition: 0.2s;
+=======
+.single-slide-item {
+    overflow: hidden;
+}
+
+.off-canvas-menu {
+    position: fixed;
+    background: #000;
+    width: 300px;
+    height: 100%;
+    z-index: 999;
+    margin-left:-300px;
+    transition: .3s;
+>>>>>>> c0efe5187db8dccc8a9f748dccbd0166068f3c92
 }
 
 .off-canvas-menu ul {
@@ -606,6 +627,7 @@ button.owl-dot {
 }
 
 .off-canvas-menu ul li a {
+<<<<<<< HEAD
     text-decoration: none;
     color: #FFF;
     display: block;
@@ -622,20 +644,56 @@ span.menu-close {
     cursor: pointer;
 }
 
+=======
+    display:block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    padding:11px 15px;
+}
+
+.menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+    padding: 11px;
+}
+
+
+>>>>>>> c0efe5187db8dccc8a9f748dccbd0166068f3c92
 .off-canvas-menu ul {
     padding-top: 50px;
 }
 
+<<<<<<< HEAD
 .off-canvas-overlay {
     position: fixed;
     background: #000;
     width: 100%;
     height: 100%;
+=======
+.menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.off-canvas-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+>>>>>>> c0efe5187db8dccc8a9f748dccbd0166068f3c92
     z-index: -1;
     opacity: 0;
     transition: 0.2s;
 }
 
+<<<<<<< HEAD
 a.menu-trigger {
     float: left;
 }
@@ -647,6 +705,14 @@ a.menu-trigger span {
     display: block;
     margin-bottom: 9px;
 
+=======
+a.menu-trigger  span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #e55288;
+    margin-bottom: 9px;
+>>>>>>> c0efe5187db8dccc8a9f748dccbd0166068f3c92
 }
 
 a.menu-trigger span:nth-child(2) {
@@ -657,6 +723,18 @@ a.menu-trigger span:nth-child(3) {
     width: 25px;
 }
 
+<<<<<<< HEAD
+=======
+a.menu-trigger {
+    float: left;
+}
+
+.header-left ul {
+    float: left;
+}
+
+
+>>>>>>> c0efe5187db8dccc8a9f748dccbd0166068f3c92
 .off-canvas-menu.active {
     margin-left: 0;
 }
